@@ -1,7 +1,7 @@
 {
   "name": "grunt-basecss",
   "description": "Wrapper for \"basecss\", an NPM module which extracts basic CSS rules for inlining them in your index.html, similar to critical CSS",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/kernjuli/grunt-basecss",
   "author": {
     "name": "Julian Kern",
