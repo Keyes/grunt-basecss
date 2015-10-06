@@ -1,0 +1,51 @@
+{
+  "name": "grunt-basecss",
+  "description": "Wrapper for \"basecss\", an NPM module which extracts basic CSS rules for inlining them in your index.html, similar to critical CSS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kernjuli/grunt-basecss",
+  "author": {
+    "name": "Julian Kern",
+    "email": "mail@juliankern.com",
+    "url": "juliankern.com"
+  },
+  "contributors": [
+    {
+      "name": "Dennis Sterzenbach",
+      "email": "dennis.sterzenbach@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kernjuli/grunt-basecss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kernjuli/grunt-basecss/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kernjuli/grunt-basecss/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "basecss": "^0.3.2"
+  }
+}

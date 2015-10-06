@@ -1,0 +1,10 @@
+.check
+{
+    width: 100px;
+    transition: all 2s;
+}
+
+.nocheck
+{
+    width: 100px;
+}
